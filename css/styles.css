@@ -1,0 +1,107 @@
+body {
+	background: 
+	radial-gradient(rgba(13,196,243,0.4),
+		rgba(13,196,243,.0)),
+		url('../images/ny_street.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	font-family: 'Open Sans', Arial;
+	/*position: relative;*/
+}
+
+.primary-window {
+	/*position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 100px;*/
+
+}
+
+.primary-window > div {
+	width: 33%;
+	background-color: rgba(255,255,255,0.59);
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	text-align: center;
+	border-radius: 5px;
+	min-height: 200px;
+	border-top: 5px solid #A8212D;
+	box-shadow: -1px -1px 25px -3px #333;
+}
+
+.primary-header {
+	text-align: center;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 2px solid rgba(255,255,255,0.5);*/
+}
+
+.primary-header > h1 {
+	margin: 0;
+	padding-left: 33px;
+	text-align: left;
+	font-size: 28pt;
+	color: #A8212D;
+	font-family: Lobster
+}
+
+.primary-form {
+	/*text-align: center;*/
+	
+}
+
+.primary-form > * + * {
+	margin-top: 10px;
+}
+
+
+.primary-form > div {
+	/*width: 400px;*/
+	text-align: center;
+}
+
+
+.primary-form input {
+	border: none;
+	/*margin-left: auto;
+	margin-right: auto;*/
+}
+
+.form-text {
+	width: 300px;
+    text-transform: lowercase;
+}
+
+.form-text::-webkit-input-placeholder {
+    color: #ddd;
+}
+
+
+div.form-tos {
+	font-size: 10pt;
+	text-align: left;
+	color: #A8212D;
+	padding-left: 45px;
+}
+
+.form-tos > a {
+	text-decoration: none;
+	color: #A8212D;
+}
+
+.primary-form button {
+	border: none;
+	border-radius: 5px;
+	background-color: transparent;
+	color: #A8212D;
+	border: 2px solid #A8212D;
+}
+
+.container > * + * {
+	margin-top: 10px;
+}
+
